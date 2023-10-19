@@ -1,8 +1,6 @@
 # Copy Snippet for VS Code
 
-<div style="text-align: center;">
-<img src="images/icon.png">
-</div>
+![Copy Snippet](images/icon.png)
 
 Copy Snippet is a Visual Studio Code extension for copying text with line
 numbers and the file path to the clipboard.  Multi-region selections are
@@ -33,6 +31,13 @@ Notice that:
 
 1. Spaces are used to indent the selection.
 2. Ellipses delimit separate regions.
+
+## Commands
+
+Copy Snippet adds the following commands to the command pallete:
+
+- Copy Snippet: Copy with path
+- Copy Snippet: Copy
 
 ## Why?
 
