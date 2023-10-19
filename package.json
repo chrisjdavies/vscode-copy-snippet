@@ -1,0 +1,79 @@
+{
+  "name": "copy-snippet",
+  "displayName": "copy-snippet",
+  "description": "Copy selection to the clipboard with relative path and line numbers.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "homepage": "https://github.com/chrisjdavies/vscode-copy-snippet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisjdavies/vscode-copy-snippet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrisjdavies/vscode-copy-snippet/issues"
+  },
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "copy",
+    "paste",
+    "line",
+    "numbers"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "copy-snippet.copy-with-path",
+        "title": "Copy Snippet: Copy with path"
+      },
+      {
+        "command": "copy-snippet.copy",
+        "title": "Copy Snippet: Copy"
+      }
+    ],
+    "configuration": {
+      "title": "Copy Snippet",
+      "properties": {
+        "copy-snippet.indentation": {
+          "type": "string",
+          "default": "     ",
+          "description": "The indent string to prepend to all copied lines."
+        },
+        "copy-snippet.continuationString": {
+          "type": "string",
+          "default": "...",
+          "description": "Continuation string to place between multi-line selections."
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "copy-paste": "^1.5.3"
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/copy-paste": "^1.1.32",
+    "@types/mocha": "^10.0.2",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.83.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "@vscode/test-electron": "^2.3.4",
+    "eslint": "^8.50.0",
+    "glob": "^10.3.3",
+    "mocha": "^10.2.0",
+    "typescript": "^5.2.2"
+  }
+}
