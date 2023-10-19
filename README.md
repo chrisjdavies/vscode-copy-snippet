@@ -73,5 +73,5 @@ Which are then easily referred to [1] in the accompanying text.
 
 ## Thanks
 
-- Thanks to [Copy With Line Numbers for VS Code](https://github.com/yassh/vscode-copy-with-line-numbers) which I used as the basis for writing this.
+- Thanks to [Copy With Line Numbers for VS Code](https://github.com/yassh/vscode-copy-with-line-numbers) which I used for inspiration in developing this.
 - Thanks to DALL-E 3 for generating the icon/logo.
