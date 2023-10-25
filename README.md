@@ -34,7 +34,7 @@ Notice that:
 
 ## Commands
 
-Copy Snippet adds the following commands to the command pallete:
+Copy Snippet adds the following commands to the command palette:
 
 - Copy Snippet: Copy with path
 - Copy Snippet: Copy
