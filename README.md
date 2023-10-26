@@ -6,6 +6,9 @@ Copy Snippet is a Visual Studio Code extension for copying text with line
 numbers and the file path to the clipboard.  Multi-region selections are
 delimited with ellipses.
 
+Created to help with writing vulnerability/bug reports where it's useful to
+include focused snippets of source code to explain an issue.
+
 ## Example
 
 See the following screenshot of the before/after:
@@ -32,20 +35,6 @@ Notice that:
 1. Spaces are used to indent the selection.
 2. Ellipses delimit separate regions.
 
-## Commands
-
-Copy Snippet adds the following commands to the command palette:
-
-- Copy Snippet: Copy with path
-- Copy Snippet: Copy
-
-## Why?
-
-My use case is for writing vulnerability reports on software where it's
-helpful to include code snippets.  It helps with clarity in reports to
-only include the relevant lines of code -- and so this is what the
-extension is for.
-
 The default indentation included by Copy Snippet is designed to be handy for
 numbering lines:
 
@@ -62,7 +51,16 @@ numbering lines:
       237 }
 ```
 
-Which are then easily referred to [1] in the accompanying text.
+This helps when making references to different parts of the code [1] in a
+vulnerability/bug report.
+
+## Commands
+
+Copy Snippet adds the following commands to the command palette:
+
+- Copy Snippet: Copy with path
+- Copy Snippet: Copy
+
 
 ## Configuration
 
