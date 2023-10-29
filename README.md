@@ -9,6 +9,11 @@ delimited with ellipses.
 Created to help with writing vulnerability/bug reports where it's useful to
 include focused snippets of source code to explain an issue.
 
+## Installation
+
+Install through the Visual Studio Code Marketplace:
+https://marketplace.visualstudio.com/items?itemName=chrisjdavies.copy-snippet
+
 ## Example
 
 See the following screenshot of the before/after:
