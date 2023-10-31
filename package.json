@@ -2,7 +2,7 @@
   "name": "copy-snippet",
   "displayName": "Copy Snippet",
   "description": "Copy selection to the clipboard with relative path and line numbers.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "homepage": "https://github.com/chrisjdavies/vscode-copy-snippet",
   "publisher": "chrisjdavies",
